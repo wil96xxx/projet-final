@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-md navbar-light bg-light px-3">
+		<a href="#" class="navbar-brand">
+		  <img src="images/one2Learn-Logo.png" alt="chat">
+		</a>
+		<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	<nav class="collapse navbar-collapse" id="navbar-content">
+	  <ul class="navbar-nav">
+		<li class="nav-item"><a class="nav-link" href="index.html" target="_blank">Acceuil</a></li>
+		<li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">A propos</a>
+			<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="">Item 1</a></li>
+			<li><a class="dropdown-item" href="">Item 2</a></li>
+			<li><a class="dropdown-item" href="">Item 3</a></li>	
+			</ul>
+		<li class="nav-item"><a class="nav-link" href="Contact.html" target="_blank">Contact</a></li>
+	  </ul>
+	</nav>
+	<form action="" id="searchform" class="ms-auto">
+		<section class="input-group" >
+			<input type="search" name="q" placeholder="Rechercher" class="form-control">
+			<button type="submit" class="btn btn-primary">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+					<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+				  </svg>
+			</button>
+
+		</section>
+	</form>
+	<button type="submit" class="btn btn-primary ms-3" data-bs-toggle="offcanvas" data-bs-target="#userTools">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+			<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+		  </svg>
+	  </header>
+        <main class="container-fluid my-3">
+            <section class="row">
+                <nav class="col-12">
+                    <ol class="breadcrumb">
+                       <li class="breadcrumb-item"><a href="#">Acceuil</a></li>
+                       <li class="breadcrumb-item active">Contact</li>
+                    </ol>
+                </nav>
+                    <section class="col12 col-md-6 mb3">
+                        <section class="alert alert-info alert-dismissible show fade">
+                            <p class="h4">Lorem, ipsum dolor.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, exercitationem voluptatem tempore dolore neque eos!</p>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </section>
+                        <h1 class="h3">Nous contacter</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in eaque placeat itaque dolore deleniti suscipit eum debitis quos quis quam necessitatibus quia voluptates, et magni cum amet officiis optio.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat laborum fugit delectus blanditiis modi ducimus facere dignissimos. Nemo consequatur ducimus quam, tenetur fugiat libero laboriosam voluptates temporibus architecto pariatur ipsam!
+                        </p>
+                
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Accordéon 1
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordéon 2
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordéon 3
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div> 
+
+                    </section>
+                    <section class="col-12 col-md-6">
+                        <form action="">
+                            <h2 class="h3">Formulaire contact</h2>
+                            <fieldset>
+                                <legend>Information personnel</legend>
+                                    <section class="row">
+                                        <section class="col-12 col-lg-6"></section>
+                                        <section class="col-12 col-lg-6"></section>
+                                        <section class="col-12 col-lg-6"></section>
+                                        <section class="col-12 col-lg-6"></section>
+                                    </section>
+                                <section class="mb-3 form-floating">
+                                    <input type="text" name="fName" id="fName" class="form-control" placeholder="Votre prénom">
+                                    <label for="fName">Votre prénom</label>
+                                    
+                                </section>
+                                
+                                <section class="mb-3 form-floating">
+                                    <input type="text" name="lName" id="lName" class="form-control" placeholder="Votre nom de famille">
+                                    <label for="lName" >Votre nom de famille</label>
+                                    
+                                </section>
+                        
+                                <section class="mb-3 form-floating">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Votre email">
+                                    <label for="email">Votre email</label>
+                                    <small class="form-text">Nous ne patargerons pas votre adresse email</small>
+                                    
+                                </section>
+
+                                <section class="mb-3 form-floating">
+                                    <select name="country" id="country" class="form-select">
+                                    <option selected>---Choisissez votre pays---</option>
+                                    <option value="BE">Belgique</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="FR">France</option>
+                                    <option value="CH">Suisse</option>
+                                    <option value="CI">Cote d'ivoire</option>
+                                </select>
+                                <label for="country" >Votre pays</label>
+                                </section>
+
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Vos préférence</legend>
+
+                                <section class="mb-3">
+            
+                                    
+                                    <section class="form-check form-switch">
+                                      
+                                        <input type="checkbox" name="boite" id="boite" value="true" class="form-check-input">
+                                            <label class="form-check-label" for="boite">Desirez-vous vous inscrire a notre boite?</label>
+                                    </section>
+
+                                    
+                                </section>
+
+                                <section class="mb-3">
+                                    <p class="h6">Comment avez-vous entendu parler de ce site ? <span class="text-muted">
+                                        (Plusieur reponse possible.)
+                                    </span></p>
+
+                                    <section class="form-check form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" name="hox" value="social" class="form-check-input">Réseau sociaux
+                                        </label>
+                                    </section>
+
+                                    <section class="form-check form-check-inline">
+                                        <label class="form-check-label"><input type="checkbox" name="hox" value="ad"checked
+                                             class="form-check-input">Publicité
+                                        </label>
+
+                                    </section>
+
+
+                                </section>
+
+                            </fieldset>
+                            <fieldset>
+                                <legend>Votre message</legend>
+                                <section class="mb-3 form-floating">
+                                    <textarea name="message" id="message" class="form-control" placeholder="Votre 
+                                    message" ></textarea>
+                                    <label for="message">Votre message</label>
+                                </section>
+                            </fieldset>
+                            <button type="submit" class="bg-primary text-white btn btn-primary">Envoyer</button>
+                        </form>
+
+                    </section>
+            </section>
+
+        </main>
+
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

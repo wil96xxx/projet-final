@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-5.0.2-dist/js/toast.js">
+	<title ACEUI></title>
+
+</head>
+<body>
+	<header class="navbar navbar-expand-md navbar-light bg-light px-3">
+		<a href="#" class="navbar-brand">
+		  <img src="images/one2Learn-Logo.png" alt="chat">
+		</a>
+		<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	<nav class="collapse navbar-collapse" id="navbar-content">
+	  <ul class="navbar-nav">
+		<li class="nav-item"><a class="nav-link" href="page2.html">Acceuil</a></li>
+		<li class="nav-item"><a class="nav-link" href="Blog.html" target="_blank">Blog</a></li>
+		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">A propos</a>
+			<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="">Item 1</a></li>
+			<li><a class="dropdown-item" href="">Item 2</a></li>
+			<li><a class="dropdown-item" href="">Item 3</a></li>	
+			</ul>
+		<li class="nav-item"><a class="nav-link" href="Contact.html" target="_blank">Contact</a></li>
+	  </ul>
+	</nav>
+	<form action="" id="searchform" class="ms-auto">
+		<section class="input-group" >
+			<input type="search" name="q" placeholder="Rechercher" class="form-control">
+			<button type="submit" class="btn btn-primary">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+					<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+				  </svg>
+			</button>
+
+		</section>
+	</form>
+	<button type="submit" class="btn btn-primary ms-3" data-bs-toggle="offcanvas" data-bs-target="#userTools">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+			<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+		  </svg>
+	  </header>
+
+	  <section class="offcanvas offcanvas-end" id="userTools">
+		<section class="offcanvas-header">
+			<h2 class="offcanvas-title">Se connecter</h2>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+		</section>
+		<section class="offcanvas-body">
+			<form>
+				<section class="mb-3">
+					<label for="username" class="form-label">Nom d'utilisateur</label>
+					<input type="text" class="form-control" name="password" id="password">
+				</section>
+
+				<section class="mb-3">
+					<label for="username" class="form-label">Mot de passe</label>
+					<input type="text" class="form-control" name="password" id="password">
+				</section>
+
+				<section class=" form-check form-switch mb-3">
+					<input class="form-check-input" type="checkbox" id="rememberMe">
+					<label for="username" class="form-label">Se souvenir de moi</label>
+				</section>
+				<button class="btn btn-primary">Se connecter</button>
+			</form>
+		</section>
+	  </section>
+
+	  <section class="toast show position-absolute end-0">
+		<section class="toast-header bg-primary text-white">
+			<strong class="me-auto">Boostrap</strong>
+			<small>Maintenant</small>
+			<button type="button" class="btn-close"></button>
+		</section>
+		<section class="toast-body">
+			Bienvenue dans le boostrap 5 !
+
+		</section>
+	  </section>
+	<main class="container-fluid my-3">
+	<section class="row mb-3">
+		<section class="col-12 col-lg-8">
+			<img src="images/officeBuilding.jpg" alt="tour" class="img-fluid rounded">
+		</section>
+		<section class="col-12 col-lg-4 bg-light px-5">
+			<h1 class="display-4">Lorem ipsum dolor sit.</h1>
+			<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium nobis voluptates esse ab non?</p>
+			<hr class="my-3">
+			<a href="about.html" class="btn btn-primary">En savoir plus</a>
+		</section>
+	</section>
+
+	<section class="row gy-3">
+		<section class="col-12 col-md-6 col-lg-3">
+				
+			<section class="card">
+					<img src="images/coding.jpg" alt="hiso" class="card-img-top">
+				<section class="card-body">
+					<h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui ipsum a excepturi ratione exercitationem!
+				</p>
+				<a href="#" class="btn btn-info">Lire la suite</a>
+			</section>
+			</section>
+	</section>
+
+	<section class="col-12 col-md-6 col-lg-3">
+				
+		<section class="card">
+				<img src="images/teaching.jpg" alt="hiso" class="card-img-top">
+			<section class="card-body">
+				<h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui ipsum a excepturi ratione exercitationem!
+			</p>
+			<a href="#" class="btn btn-info">Lire la suite</a>
+		</section>
+		</section>
+</section>
+
+<section class="col-12 col-md-6 col-lg-3">
+				
+	<section class="card">
+			<img src="images/mixing.jpg" alt="hiso" class="card-img-top">
+		<section class="card-body">
+			<h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui ipsum a excepturi ratione exercitationem!
+		</p>
+		<a href="#" class="btn btn-info">Lire la suite</a>
+	</section>
+	</section>
+</section>
+<section class="col-12 col-md-6 col-lg-3">
+				
+	<section class="card">
+			<img src="images/video.jpg" alt="hiso" class="card-img-top">
+		<section class="card-body">
+			<h1 class="h3 card-title">Lorem, ipsum dolor.</h1>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum qui ipsum a excepturi ratione exercitationem!
+		</p>
+		<a href="#" class="btn btn-info">Lire la suite</a>
+	</section>
+	</section>
+</section>
+</section>
+	
+</main>
+
+	<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
